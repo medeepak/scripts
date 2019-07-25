@@ -8,7 +8,6 @@ total=0
 
 for i in $( awk '{ print $1; }' $1 ) do 
 	total=$(echo $total+$i | bc )
-	((count++)); 
 done; 
 
-echo "scale=2; $total / $count" | bc
+echo "scale=2; $total" | bc
