@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#To find averages of numbers printed on command line
+#To find sum of numbers printed on command line
 #
 
 count=0 
