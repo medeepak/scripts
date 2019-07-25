@@ -6,7 +6,7 @@
 count=0 
 total=0 
 
-for i in $( awk '{ print $1; }' $1 ) do 
+for i in $( awk '{ print $1; }' $1 ); do 
 	total=$(echo $total+$i | bc )
 done; 
 
