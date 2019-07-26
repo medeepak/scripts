@@ -3,7 +3,6 @@
 #To find sum of numbers printed on command line
 #
 
-count=0 
 total=0 
 
 for i in $( awk '{ print $1; }' $1 ); do 
